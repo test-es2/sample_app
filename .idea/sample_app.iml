@@ -25,7 +25,7 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/bundle" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/cache" />
     </content>
-    <orderEntry type="jdk" jdkName="rbenv: 2.6.3" jdkType="RUBY_SDK" />
+    <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">
       <library name="actioncable (vbundled(5.1.7)) [path][gem]" type="rubylib">
@@ -171,6 +171,29 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library name="autoprefixer-rails (vbundled(9.6.1)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/autoprefixer-rails-9.6.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/autoprefixer-rails-9.6.1/spec" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/autoprefixer-rails-9.6.1/vendor" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/autoprefixer-rails-9.6.1/.github" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/autoprefixer-rails-9.6.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/autoprefixer-rails-9.6.1/spec" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/autoprefixer-rails-9.6.1/vendor" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/autoprefixer-rails-9.6.1/.github" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/autoprefixer-rails-9.6.1/spec" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/autoprefixer-rails-9.6.1/.github" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="bindex (vbundled(0.8.1)) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="4" />
@@ -188,6 +211,33 @@
         <excluded>
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/bindex-0.8.1/ext" />
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/bindex-0.8.1/test" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="bootstrap-sass (vbundled(3.3.7)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/bootstrap-sass-3.3.7/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/bootstrap-sass-3.3.7/test" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/bootstrap-sass-3.3.7/tasks" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/bootstrap-sass-3.3.7/assets" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/bootstrap-sass-3.3.7/templates" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/bootstrap-sass-3.3.7/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/bootstrap-sass-3.3.7/test" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/bootstrap-sass-3.3.7/tasks" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/bootstrap-sass-3.3.7/assets" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/bootstrap-sass-3.3.7/templates" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/bootstrap-sass-3.3.7/test" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/bootstrap-sass-3.3.7/tasks" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/bootstrap-sass-3.3.7/assets" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/bootstrap-sass-3.3.7/templates" />
         </excluded>
       </library>
     </orderEntry>
@@ -740,6 +790,30 @@
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/nio4r-2.4.0/spec" />
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/nio4r-2.4.0/rakelib" />
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/nio4r-2.4.0/examples" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="nokogiri (vbundled(1.10.4)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.4/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.4/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.4/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.4/patches" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.4/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.4/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.4/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.4/patches" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.4/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.4/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.4/patches" />
         </excluded>
       </library>
     </orderEntry>

@@ -1,0 +1,19 @@
+current directory: /Users/ooshiroyoshitaka/Documents/work/sample_app/vendor/bundle/ruby/2.6.0/gems/byebug-9.0.6/ext/byebug
+/Users/ooshiroyoshitaka/.rbenv/versions/2.6.3/bin/ruby -I /Users/ooshiroyoshitaka/.rbenv/versions/2.6.3/lib/ruby/2.6.0 -r ./siteconf20190812-25414-uqopnb.rb extconf.rb
+creating Makefile
+
+current directory: /Users/ooshiroyoshitaka/Documents/work/sample_app/vendor/bundle/ruby/2.6.0/gems/byebug-9.0.6/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /Users/ooshiroyoshitaka/Documents/work/sample_app/vendor/bundle/ruby/2.6.0/gems/byebug-9.0.6/ext/byebug
+make "DESTDIR="
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.bundle
+
+current directory: /Users/ooshiroyoshitaka/Documents/work/sample_app/vendor/bundle/ruby/2.6.0/gems/byebug-9.0.6/ext/byebug
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 byebug.bundle ./.gem.20190812-25414-1nwyvhi/byebug
