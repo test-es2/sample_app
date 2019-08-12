@@ -1,0 +1,15 @@
+current directory: /Users/ooshiroyoshitaka/Documents/work/sample_app/vendor/bundle/ruby/2.3.0/gems/bindex-0.8.1/ext/skiptrace
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/bin/ruby -r ./siteconf20190812-78811-1v2km9x.rb extconf.rb
+creating Makefile
+
+current directory: /Users/ooshiroyoshitaka/Documents/work/sample_app/vendor/bundle/ruby/2.3.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" clean
+
+current directory: /Users/ooshiroyoshitaka/Documents/work/sample_app/vendor/bundle/ruby/2.3.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR="
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.bundle
+
+current directory: /Users/ooshiroyoshitaka/Documents/work/sample_app/vendor/bundle/ruby/2.3.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cruby.bundle ./.gem.20190812-78811-jqfhk6/skiptrace/internal
