@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
 
+  get 'password_resets/new'
+
+  get 'password_resets/edit'
+
   get 'sessions/new'
 
   get 'users/new'
@@ -17,5 +21,6 @@ Rails.application.routes.draw do
 
   resources :users
   resources :account_activations, only: [:edit] #アカウント有効化に使うリソース (editアクション) を追加する
+  resources :password_resets,     only: [:new, :create, :edit, :update]
 
 end
