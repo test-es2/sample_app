@@ -19,9 +19,16 @@ Rails.application.routes.draw do
   post   '/login',   to: 'sessions#create'
   delete '/logout',  to: 'sessions#destroy'
 
+  resources :users do
+    member do
+      get :following, :followers
+    end
+  end
+
   resources :users
   resources :account_activations, only: [:edit] #アカウント有効化に使うリソース (editアクション) を追加する
   resources :password_resets,     only: [:new, :create, :edit, :update]
   resources :microposts,          only: [:create, :destroy]
+  resources :relationships,       only: [:create, :destroy]
 
 end
